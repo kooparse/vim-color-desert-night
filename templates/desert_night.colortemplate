@@ -39,12 +39,12 @@ Background: dark
 # Color name         GUI               Base256           Base16 (optional)
 Color: black         #242019        ~         Black
 Color: golden        #d4b07b           180               LightGrey
-Color: red           #db4f4f           131               Red
+Color: red           #e15353           131               Red
 Color: orange        #df8052           130               Yellow
-Color: lime          #b7b852           130               Yellow
+Color: lime          #a8a943           130               Yellow
 
-Color: green         #b7b852           65                Green
-Color: blue          #4bb1a7           67                Blue
+Color: green         #a8a943           65                Green
+Color: blue          #a8a943           67                Blue
 Color: magenta       #b888e2           95                Magenta
 Color: cyan          #4bb1a7           37                Cyan
 
