@@ -40,8 +40,9 @@ Background: dark
 Color: black         #242019        ~         Black
 Color: golden        #d4b07b           180               LightGrey
 Color: red           #db4f4f           131               Red
+Color: orange        #db7b4d           130               Yellow
+
 Color: green         #8eae60           65                Green
-Color: orange        #e18254           130               Yellow
 Color: blue          #adb44f           67                Blue
 Color: magenta       #b888e2           95                Magenta
 Color: cyan          #4bb1a7           37                Cyan
