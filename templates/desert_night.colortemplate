@@ -21,9 +21,7 @@ QuickFixLine      -> Search
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 Structure         -> Type
-Boolean           -> Constant
 Define            -> PreProc
-SpecialChar       -> Special
 # Other conventional group names (see `:help group-name`)
 Debug             -> Special
 Include           -> PreProc
@@ -39,7 +37,8 @@ Background: dark
 # Color name         GUI               Base256           Base16 (optional)
 Color: black         #242019           235               Black
 Color: grey          #473f31           233               Grey
-Color: golden        #d4b07b           250               LightGrey
+Color: lightgrey     #87765d           240               LightGrey
+Color: golden        #d4b07b           250               White
 Color: red           #e35a5a           203               Red
 Color: orange        #e18245           208               DarkYellow
 Color: lime          #b2ad45           192               Yellow
@@ -73,20 +72,21 @@ Variant: gui
 Variant: 256 8
 #if get(g:, '@optionprefix_transp_bg', 0)
 Variant: gui 256 8
-    Normal           cover             none
-    Terminal         cover             none
+    Normal           golden            none
+    Terminal         golden            none
 #else
     Normal           golden             black
-    Terminal         cover             golden
+    Terminal         golden            black
 #endif
 
 # Group              Foreground        Background        Attributes
-ColorColumn          fg                golden
-Conceal              brown             none
-Cursor               cover             golden
-CursorColumn         none              goldenalt
-CursorLine           none              goldenalt
-CursorLineNr         cover             goldenalt
+ColorColumn          fg                black
+Conceal              lightgrey         none
+Cursor               golden            black
+CursorColumn         none              grey
+CursorLine           none              grey
+CursorLineNr         golden            grey
+LineNr               lightgrey         grey
 DiffAdd              none              lightgreen
 DiffChange           none              lightblue
 DiffDelete           none              lightred
@@ -97,7 +97,6 @@ ErrorMsg             red               golden             bold
 FoldColumn           brown             goldenalt
 Folded               brown             goldenalt
 IncSearch            none              goldenalt          underline
-LineNr               brown             goldenalt
 MatchParen           none              none              bold
 ModeMsg              darkcover         none
 MoreMsg              darkcover         none
@@ -148,8 +147,10 @@ String               green             none
 Character            green             none
 Number               cyan              none
 Float                cyan              none
+Boolean           -> Constant
+SpecialChar       -> Special
 Special              cyan              none
-Comment              brown             none              italic
+Comment              lightgrey         none              italic
 SpecialComment       darkbrown         none
 Ignore               brown             none
 Underlined           none              none              underline
