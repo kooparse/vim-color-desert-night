@@ -1,0 +1,329 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58
+
+# ":help fold-marker" to get better display of this file
+# Information {{{
+Full name:           Desert Night
+Short name:          desert_night
+Author:              Sainnhepark <sainnhe@gmail.com>
+Maintainer:          Sainnhepark <sainnhe@gmail.com>
+Website:             https://github.com/sainnhe/vim-color-desert-night/
+Description:         WIP
+License:             MIT && Anti-996
+Option Prefix:       dark
+# }}}
+
+# Documentation {{{
+Include: _help.colortemplate
+# }}}
+
+# Common linked groups {{{
+QuickFixLine      -> Search
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+Structure         -> Type
+Boolean           -> Constant
+Define            -> PreProc
+SpecialChar       -> Special
+# Other conventional group names (see `:help group-name`)
+Debug             -> Special
+Include           -> PreProc
+Macro             -> PreProc
+Repeat            -> Statement
+# See `:help lCursor`
+lCursor           -> Cursor
+# }}}
+
+Background: dark
+
+# Color palette {{{
+# Color name         GUI               Base256           Base16 (optional)
+Color: black         #242019        ~         Black
+Color: golden        #d4b07b           180               LightGrey
+Color: red           #db4f4f           131               Red
+Color: green         #8eae60           65                Green
+Color: orange        #e18254           130               Yellow
+Color: blue          #adb44f           67                Blue
+Color: magenta       #b888e2           95                Magenta
+Color: cyan          #4bb1a7           37                Cyan
+
+Color: lightbrown    #918175           245               Brown
+Color: brown         #7e7268           246               Brown
+Color: darkbrown     #5e544d           237               Black
+Color: lightred      #c27773           210               LightRed
+Color: lightgreen    #7fa37f           108               LightGreen
+Color: lightorange   #ce9861           223               LightYellow
+Color: lightblue     #7f8ca3           39                LightBlue
+Color: goldenalt     #ae9168           179               LightGrey
+Color: darkcover     #634022           239               Brown
+Color: cover         #674529           240               Brown
+Color: lightcover    #744f2f           241               Brown
+# }}}
+
+# Terminal colors {{{
+Term colors: cover red green orange blue magenta cyan lightbrown
+Term colors: cover red green orange
+Term colors: blue magenta cyan lightbrown
+# }}}
+
+# Default highlight groups {{{
+Variant: gui
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: 256 8
+#if get(g:, '@optionprefix_transp_bg', 0)
+Variant: gui 256 8
+    Normal           cover             none
+    Terminal         cover             none
+#else
+    Normal           golden             black
+    Terminal         cover             golden
+#endif
+
+# Group              Foreground        Background        Attributes
+ColorColumn          fg                golden
+Conceal              brown             none
+Cursor               cover             golden
+CursorColumn         none              goldenalt
+CursorLine           none              goldenalt
+CursorLineNr         cover             goldenalt
+DiffAdd              none              lightgreen
+DiffChange           none              lightblue
+DiffDelete           none              lightred
+DiffText             none              lightorange
+Directory            cover             none
+EndOfBuffer          golden             none
+ErrorMsg             red               golden             bold
+FoldColumn           brown             goldenalt
+Folded               brown             goldenalt
+IncSearch            none              goldenalt          underline
+LineNr               brown             goldenalt
+MatchParen           none              none              bold
+ModeMsg              darkcover         none
+MoreMsg              darkcover         none
+NonText              brown             none
+Pmenu                cover             goldenalt
+PmenuSbar            none              goldenalt
+PmenuSel             goldenalt          cover
+PmenuThumb           goldenalt          cover
+Question             green             none
+Search               none              goldenalt          underline
+SignColumn           none              goldenalt
+SpecialKey           darkbrown         none
+SpellBad             red               none              s=red
+SpellCap             orange            none              s=orange
+SpellLocal           blue              none              s=blue
+SpellRare            magenta           none              s=magenta
+StatusLine           golden             cover
+StatusLineNC         cover             goldenalt
+TabLine              cover             goldenalt
+TabLineFill          cover             golden
+TabLineSel           golden             cover
+VertSplit            lightcover        golden
+Visual               none              goldenalt
+VisualNOS            none              goldenalt          italic
+WarningMsg           orange            golden             bold
+WildMenu             cover             goldenalt
+
+Todo                 magenta           none
+Label                magenta           none
+Conditional          magenta           none
+PreCondit            magenta           none
+Operator             magenta           none
+Title                red               none
+PreProc              red               none
+Exception            red               none
+Error                red               none              bold
+Typedef              red               none
+StorageClass         red               none
+Type                 orange            none
+Identifier           orange            none
+Delimiter            blue              none
+Statement            blue              none
+Tag                  blue              none
+Function             blue              none
+Keyword              blue              none
+Constant             green             none
+String               green             none
+Character            green             none
+Number               cyan              none
+Float                cyan              none
+Special              cyan              none
+Comment              brown             none              italic
+SpecialComment       darkbrown         none
+Ignore               brown             none
+Underlined           none              none              underline
+# See `:help CursorIM`
+CursorIM             none              fg
+# See `:help window-toolbar`
+ToolbarLine          none              golden
+ToolbarButton        brown             golden             bold
+# }}}
+
+# Additional highlight groups {{{
+# Filetypes
+# html{{{
+htmlLink             none              none              underline
+htmlEndTag           magenta           none
+#}}}
+# css{{{
+cssProp              orange            none
+cssClassName         red               none
+cssClassNameDot      orange            none
+#}}}
+# sass{{{
+sassClass            red               none
+sassClassChar        red               none
+#}}}
+# less{{{
+lessVariable         blue              none
+lessMixinChar        orange            none
+lessAmpersandChar    green             none
+#}}}
+# js{{{
+jsParens          -> Delimiter
+jsBraces          -> Delimiter
+jsParensRepeat    -> Delimiter
+jsRepeatBraces    -> Delimiter
+jsSwitchBraces    -> Delimiter
+jsFunction           magenta           none
+jsFuncCall           blue              none
+jsAsyncKeyword       magenta           none
+jsGlobalNodeObjects  red               none
+jsNull               green             none
+#}}}
+# ts{{{
+typescriptReserved   green            none
+typescriptParens  -> Delimiter
+typescriptNull       green             none
+typescriptGlobalObjects red            none
+#}}}
+# coffee{{{
+coffeeCurly       -> Delimiter
+coffeeBracket     -> Delimiter
+coffeeParen       -> Delimiter
+coffeeInterpDelim    cyan              none
+#}}}
+# python{{{
+pythonBuiltinFunc    magenta           none
+pythonBuiltinType    red               none
+pythonDottedName     red               none
+#}}}
+# go{{{
+goPackage            red               none
+goImport             orange            none
+#}}}
+# rust{{{
+rustExternCrate      red               none
+rustKeyword          green             none
+rustTrait            magenta           none
+rustDeriveTrait      orange            none
+#}}}
+# php{{{
+phpVarSelector       red               none
+phpParent         -> Delimiter
+#}}}
+# csharp{{{
+csUnspecifiedStatement red             none
+csAsync              magenta           none
+csLogicSymbols       blue              none
+#}}}
+# dart{{{
+dartCoreClasses   -> Function
+dartMetadata         magenta           none
+#}}}
+# perl{{{
+perlStatementPackage red               none
+perlStatementInclude orange            none
+perlFunction         magenta           none
+#}}}
+# haskell{{{
+haskellDecl          blue              none
+haskellDeclKeyword   magenta           none
+#}}}
+# lua{{{
+luaFuncKeyword       magenta           none
+luaBuiltIn        -> Special
+#}}}
+# d{{{
+dEnum                orange            none
+dStorageClass        blue              none
+dScopeDecl           magenta           none
+dOperator            red               none
+#}}}
+# scala{{{
+scalaKeywordModifier magenta           none
+scalaSpecial         magenta           none
+scalaNameDefinition  orange            none
+scalaInstanceDeclaration red           none
+scalaCapitalWord     green             none
+scalaSquareBrackets -> Delimiter
+scalaSquareBracketsBrackets -> Delimiter
+#}}}
+# sh{{{
+shQuote           -> Delimiter
+shRange           -> Delimiter
+shDerefVar        -> Special
+#}}}
+# zsh{{{
+zshSubst             cyan              none
+zshSubstDelim        green             none
+zshDeref             orange            none
+#}}}
+# fish{{{
+fishKeyword          magenta           none
+fishCommandSub       cyan              none
+#}}}
+# json{{{
+jsonKeyword          blue              none
+jsonQuote            cyan              none
+#}}}
+
+# Plugins
+# startify{{{
+StartifyFile         green             none
+StartifyBracket      orange            none
+StartifyNumber       red               none
+StartifySlash        orange            none
+StartifySection      magenta           none
+StartifyHeader       blue              none
+#}}}
+# ale{{{
+ALEWarningSign       orange            goldenalt
+ALEErrorSign         red               goldenalt
+ALEInfoSign          blue              goldenalt
+ALEError             none              lightred
+ALEWarning           none              lightorange
+ALEVirtualTextError  brown             none
+ALEVirtualTextWarning brown            none
+ALEVirtualTextInfo   brown             none
+ALEVirtualTextStyleError            -> ALEVirtualTextError
+ALEVirtualTextStyleWarning          -> ALEVirtualTextWarning
+#}}}
+# coc{{{
+CocHighlightText     none              none              bold
+CocCodeLens          brown             none
+CocErrorSign      -> ALEErrorSign
+CocWarningSign    -> ALEWarningSign
+CocInfoSign       -> ALEInfoSign
+CocHintSign       -> Label
+CocErrorHighlight -> ALEError
+CocWarningHighlight -> ALEWarning
+CocInfoHighlight  -> ALEInfo
+CocWarningVirtualText -> ALEVirtualTextWarning
+CocErrorVirtualText -> ALEVirtualTextError
+CocInfoVirtualText -> ALEVirtualTextInfo
+CocHintVirtualText -> ALEVirtualTextInfo
+CocCodeLens       -> ALEVirtualTextInfo
+#}}}
+# vim-matchup{{{
+MatchParenCur        none              none              bold
+MatchWord            none              none              underline
+MatchWordCur         none              none              underline
+#}}}
+# sneak{{{
+Sneak                none              goldenalt
+#}}}
+# }}}
+
+# B/W variant {{{
+Include: _bw.colortemplate
+# }}}
