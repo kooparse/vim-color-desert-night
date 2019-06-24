@@ -58,7 +58,6 @@ Color: lightred      #c27773           210               LightRed
 Color: lightgreen    #7fa37f           108               LightGreen
 Color: lightorange   #ce9861           223               LightYellow
 Color: lightblue     #7f8ca3           39                LightBlue
-Color: goldenalt     #ae9168           179               LightGrey
 Color: darkcover     #634022           239               Brown
 Color: cover         #674529           240               Brown
 Color: lightcover    #744f2f           241               Brown
@@ -91,42 +90,42 @@ CursorColumn         none              grey
 CursorLine           none              grey
 CursorLineNr         golden            grey
 LineNr               lightgrey         grey
-DiffAdd              none              lightgreen
-DiffChange           none              lightblue
-DiffDelete           none              lightred
-DiffText             none              lightorange
-Directory            cover             none
-EndOfBuffer          golden             none
-ErrorMsg             red               golden             bold
-FoldColumn           brown             goldenalt
-Folded               brown             goldenalt
-IncSearch            none              goldenalt          underline
+DiffAdd              none              darkgreen
+DiffChange           none              darkblue
+DiffDelete           none              darkred
+DiffText             none              darkorange
+Directory            green             none
+EndOfBuffer          grey              none
+ErrorMsg             red               none              bold
+WarningMsg           orange            none              bold
+ModeMsg              orange            none
+MoreMsg              green             none
+FoldColumn           lightgrey         grey
+Folded               lightgrey         grey
+IncSearch            none              grey              underline
 MatchParen           none              none              bold
-ModeMsg              darkcover         none
-MoreMsg              darkcover         none
-NonText              brown             none
-Pmenu                cover             goldenalt
-PmenuSbar            none              goldenalt
-PmenuSel             goldenalt          cover
-PmenuThumb           goldenalt          cover
-Question             green             none
-Search               none              goldenalt          underline
-SignColumn           none              goldenalt
+NonText              grey              none
+Pmenu                golden            grey
+PmenuSbar            none              grey
+PmenuSel             black             green
+PmenuThumb           black             golden
+Question             blue              none
+Search               none              grey              underline
+SignColumn           none              grey
 SpecialKey           darkbrown         none
 SpellBad             red               none              s=red
 SpellCap             orange            none              s=orange
 SpellLocal           blue              none              s=blue
 SpellRare            magenta           none              s=magenta
-StatusLine           golden             cover
-StatusLineNC         cover             goldenalt
-TabLine              cover             goldenalt
-TabLineFill          cover             golden
-TabLineSel           golden             cover
-VertSplit            lightcover        golden
-Visual               none              darkblue
-VisualNOS            none              goldenalt          italic
-WarningMsg           orange            golden             bold
-WildMenu             cover             goldenalt
+StatusLine           black             golden
+StatusLineNC         golden            black
+TabLine              golden            grey
+TabLineFill          golden            black
+TabLineSel           black             golden
+VertSplit            grey              black
+Visual               none              grey
+VisualNOS            none              grey              italic
+WildMenu             golden            grey
 
 Todo                 magenta           none
 Label                magenta           none
@@ -294,9 +293,9 @@ StartifySection      magenta           none
 StartifyHeader       blue              none
 #}}}
 # ale{{{
-ALEWarningSign       orange            goldenalt
-ALEErrorSign         red               goldenalt
-ALEInfoSign          blue              goldenalt
+ALEWarningSign       orange            grey
+ALEErrorSign         red               grey
+ALEInfoSign          blue              grey
 ALEError             none              lightred
 ALEWarning           none              lightorange
 ALEVirtualTextError  brown             none
@@ -327,7 +326,7 @@ MatchWord            none              none              underline
 MatchWordCur         none              none              underline
 #}}}
 # sneak{{{
-Sneak                none              goldenalt
+Sneak                none              grey
 #}}}
 # }}}
 
