@@ -37,14 +37,15 @@ Background: dark
 
 # Color palette {{{
 # Color name         GUI               Base256           Base16 (optional)
-Color: black         #242019        ~         Black
-Color: golden        #d4b07b           180               LightGrey
-Color: red           #e35a5a           131               Red
-Color: orange        #e18245           130               Yellow
-Color: lime          #b2ad45           130               Yellow
-Color: green         #9db65d           65                Green
-Color: blue          #8a9ec5           67                Blue
-Color: magenta       #d261a5           95                Magenta
+Color: black         #242019           235               Black
+Color: grey          #473f31           233               Grey
+Color: golden        #d4b07b           250               LightGrey
+Color: red           #e35a5a           203               Red
+Color: orange        #e18245           208               DarkYellow
+Color: lime          #b2ad45           192               Yellow
+Color: green         #9db65d           120               Green
+Color: blue          #8a9ec5           81                Blue
+Color: magenta       #d261a5           139               Magenta
 
 Color: cyan          #4bb1a7           37                Cyan
 Color: lightbrown    #918175           245               Brown
