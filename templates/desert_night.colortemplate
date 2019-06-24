@@ -45,6 +45,10 @@ Color: lime          #b2ad45           192               Yellow
 Color: green         #9db65d           120               Green
 Color: blue          #8a9ec5           81                Blue
 Color: magenta       #d261a5           139               Magenta
+Color: darkorange    #512c13           136               Black
+Color: darkred       #562022           124               Black
+Color: darkgreen     #303a1a           64                Black
+Color: darkblue      #1e2c3e           24                Black
 
 Color: cyan          #4bb1a7           37                Cyan
 Color: lightbrown    #918175           245               Brown
@@ -119,7 +123,7 @@ TabLine              cover             goldenalt
 TabLineFill          cover             golden
 TabLineSel           golden             cover
 VertSplit            lightcover        golden
-Visual               none              goldenalt
+Visual               none              darkblue
 VisualNOS            none              goldenalt          italic
 WarningMsg           orange            golden             bold
 WildMenu             cover             goldenalt
