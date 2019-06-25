@@ -43,7 +43,7 @@ Color: red           #e35a5a           203               Red
 Color: orange        #e18245           208               DarkYellow
 Color: lemon         #b2ad45           192               Yellow
 Color: green         #9db65d           120               Green
-Color: blue          #8a9ec5           81                Blue
+Color: blue          #8294b8           81                Blue
 Color: magenta       #d261a5           139               Magenta
 Color: darkorange    #512c13           136               Black
 Color: darkred       #562022           124               Black
@@ -118,7 +118,6 @@ PreCondit            magenta           none
 Todo                 blue              none
 Label                blue              none
 Conditional          blue              none
-Operator             blue              none
 Title                red               none
 PreProc              red               none
 Exception            red               none
@@ -126,6 +125,7 @@ Error                red               none              bold
 Typedef              red               none
 StorageClass         red               none
 SpecialKey           red               none
+Operator             orange            none
 Special              orange            none
 Type                 orange            none
 Keyword              orange            none
