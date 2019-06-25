@@ -35,13 +35,13 @@ Background: dark
 
 # Color palette {{{
 # Color name         GUI               Base256           Base16 (optional)
-Color: black         #242019           235               Black
+Color: black         #24221c           235               Black
 Color: grey          #473f31           233               Grey
 Color: lightgrey     #87765d           240               LightGrey
 Color: golden        #d4b07b           250               White
 Color: red           #e35a5a           203               Red
 Color: orange        #e18245           208               DarkYellow
-Color: lime          #b2ad45           192               Yellow
+Color: lemon         #b2ad45           192               Yellow
 Color: green         #9db65d           120               Green
 Color: blue          #8a9ec5           81                Blue
 Color: magenta       #d261a5           139               Magenta
@@ -49,24 +49,12 @@ Color: darkorange    #512c13           136               Black
 Color: darkred       #562022           124               Black
 Color: darkgreen     #303a1a           64                Black
 Color: darkblue      #1e2c3e           24                Black
-
-Color: cyan          #4bb1a7           37                Cyan
-Color: lightbrown    #918175           245               Brown
-Color: brown         #7e7268           246               Brown
-Color: darkbrown     #5e544d           237               Black
-Color: lightred      #c27773           210               LightRed
-Color: lightgreen    #7fa37f           108               LightGreen
-Color: lightorange   #ce9861           223               LightYellow
-Color: lightblue     #7f8ca3           39                LightBlue
-Color: darkcover     #634022           239               Brown
-Color: cover         #674529           240               Brown
-Color: lightcover    #744f2f           241               Brown
 # }}}
 
 # Terminal colors {{{
-Term colors: cover red green orange blue magenta cyan lightbrown
-Term colors: cover red green orange
-Term colors: blue magenta cyan lightbrown
+Term colors: grey red lemon orange blue magenta green golden
+Term colors: grey red lemon orange
+Term colors: blue magenta green golden
 # }}}
 
 # Default highlight groups {{{
@@ -112,7 +100,6 @@ PmenuThumb           black             golden
 Question             blue              none
 Search               none              grey              underline
 SignColumn           none              grey
-SpecialKey           darkbrown         none
 SpellBad             red               none              s=red
 SpellCap             orange            none              s=orange
 SpellLocal           blue              none              s=blue
@@ -127,186 +114,61 @@ Visual               none              grey
 VisualNOS            none              grey              italic
 WildMenu             golden            grey
 
-Todo                 magenta           none
-Label                magenta           none
-Conditional          magenta           none
 PreCondit            magenta           none
-Operator             magenta           none
+Todo                 blue              none
+Label                blue              none
+Conditional          blue              none
+Operator             blue              none
 Title                red               none
 PreProc              red               none
 Exception            red               none
 Error                red               none              bold
 Typedef              red               none
 StorageClass         red               none
+SpecialKey           red               none
+Special              orange            none
 Type                 orange            none
-Identifier           orange            none
-Delimiter            blue              none
-Statement            blue              none
-Tag                  blue              none
-Function             blue              none
-Keyword              blue              none
+Keyword              orange            none
+Function             green             none
+Identifier           green             none
+Statement            green             none
+Tag                  green             none
+Delimiter            lemon             none
+String               lemon             none
+Character            lemon             none
+Number               lemon             none
+Float                lemon             none
 Constant             green             none
-String               green             none
-Character            green             none
-Number               cyan              none
-Float                cyan              none
-Boolean           -> Constant
-SpecialChar       -> Special
-Special              cyan              none
+Boolean              green             none
+SpecialChar          green             none
 Comment              lightgrey         none              italic
-SpecialComment       darkbrown         none
-Ignore               brown             none
+SpecialComment       green             none
+Ignore               lightgrey         none
 Underlined           none              none              underline
 # See `:help CursorIM`
 CursorIM             none              fg
 # See `:help window-toolbar`
-ToolbarLine          none              golden
-ToolbarButton        brown             golden             bold
+ToolbarLine          none              black
+ToolbarButton        golden            black             bold
 # }}}
 
 # Additional highlight groups {{{
-# Filetypes
-# html{{{
-htmlLink             none              none              underline
-htmlEndTag           magenta           none
-#}}}
-# css{{{
-cssProp              orange            none
-cssClassName         red               none
-cssClassNameDot      orange            none
-#}}}
-# sass{{{
-sassClass            red               none
-sassClassChar        red               none
-#}}}
-# less{{{
-lessVariable         blue              none
-lessMixinChar        orange            none
-lessAmpersandChar    green             none
-#}}}
-# js{{{
-jsParens          -> Delimiter
-jsBraces          -> Delimiter
-jsParensRepeat    -> Delimiter
-jsRepeatBraces    -> Delimiter
-jsSwitchBraces    -> Delimiter
-jsFunction           magenta           none
-jsFuncCall           blue              none
-jsAsyncKeyword       magenta           none
-jsGlobalNodeObjects  red               none
-jsNull               green             none
-#}}}
-# ts{{{
-typescriptReserved   green            none
-typescriptParens  -> Delimiter
-typescriptNull       green             none
-typescriptGlobalObjects red            none
-#}}}
-# coffee{{{
-coffeeCurly       -> Delimiter
-coffeeBracket     -> Delimiter
-coffeeParen       -> Delimiter
-coffeeInterpDelim    cyan              none
-#}}}
-# python{{{
-pythonBuiltinFunc    magenta           none
-pythonBuiltinType    red               none
-pythonDottedName     red               none
-#}}}
-# go{{{
-goPackage            red               none
-goImport             orange            none
-#}}}
-# rust{{{
-rustExternCrate      red               none
-rustKeyword          green             none
-rustTrait            magenta           none
-rustDeriveTrait      orange            none
-#}}}
-# php{{{
-phpVarSelector       red               none
-phpParent         -> Delimiter
-#}}}
-# csharp{{{
-csUnspecifiedStatement red             none
-csAsync              magenta           none
-csLogicSymbols       blue              none
-#}}}
-# dart{{{
-dartCoreClasses   -> Function
-dartMetadata         magenta           none
-#}}}
-# perl{{{
-perlStatementPackage red               none
-perlStatementInclude orange            none
-perlFunction         magenta           none
-#}}}
-# haskell{{{
-haskellDecl          blue              none
-haskellDeclKeyword   magenta           none
-#}}}
-# lua{{{
-luaFuncKeyword       magenta           none
-luaBuiltIn        -> Special
-#}}}
-# d{{{
-dEnum                orange            none
-dStorageClass        blue              none
-dScopeDecl           magenta           none
-dOperator            red               none
-#}}}
-# scala{{{
-scalaKeywordModifier magenta           none
-scalaSpecial         magenta           none
-scalaNameDefinition  orange            none
-scalaInstanceDeclaration red           none
-scalaCapitalWord     green             none
-scalaSquareBrackets -> Delimiter
-scalaSquareBracketsBrackets -> Delimiter
-#}}}
-# sh{{{
-shQuote           -> Delimiter
-shRange           -> Delimiter
-shDerefVar        -> Special
-#}}}
-# zsh{{{
-zshSubst             cyan              none
-zshSubstDelim        green             none
-zshDeref             orange            none
-#}}}
-# fish{{{
-fishKeyword          magenta           none
-fishCommandSub       cyan              none
-#}}}
-# json{{{
-jsonKeyword          blue              none
-jsonQuote            cyan              none
-#}}}
-
 # Plugins
-# startify{{{
-StartifyFile         green             none
-StartifyBracket      orange            none
-StartifyNumber       red               none
-StartifySlash        orange            none
-StartifySection      magenta           none
-StartifyHeader       blue              none
-#}}}
 # ale{{{
 ALEWarningSign       orange            grey
 ALEErrorSign         red               grey
 ALEInfoSign          blue              grey
-ALEError             none              lightred
-ALEWarning           none              lightorange
-ALEVirtualTextError  brown             none
-ALEVirtualTextWarning brown            none
-ALEVirtualTextInfo   brown             none
+ALEError             none              darkred
+ALEWarning           none              darkorange
+ALEVirtualTextError  lightgrey         none
+ALEVirtualTextWarning lightgrey        none
+ALEVirtualTextInfo   lightgrey         none
 ALEVirtualTextStyleError            -> ALEVirtualTextError
 ALEVirtualTextStyleWarning          -> ALEVirtualTextWarning
 #}}}
 # coc{{{
 CocHighlightText     none              none              bold
-CocCodeLens          brown             none
+CocCodeLens          lightgrey         none
 CocErrorSign      -> ALEErrorSign
 CocWarningSign    -> ALEWarningSign
 CocInfoSign       -> ALEInfoSign
@@ -326,7 +188,7 @@ MatchWord            none              none              underline
 MatchWordCur         none              none              underline
 #}}}
 # sneak{{{
-Sneak                none              grey
+Sneak                none              darkred
 #}}}
 # }}}
 
