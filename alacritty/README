@@ -1,0 +1,33 @@
+# Installation
+
+Add this to `~/.config/alacritty/alacritty.yml`
+
+```yaml
+colors:
+  # Default colors
+  primary:
+    background: "0x24221c"
+    foreground: "0xd4b07b"
+
+  # Normal colors
+  normal:
+    black: "0x473f31"
+    red: "0xe35a5a"
+    green: "0x9db65d"
+    yellow: "0xe18245"
+    blue: "0x8294b8"
+    magenta: "0xd261a5"
+    cyan: "0xb2ad45"
+    white: "0x87765d"
+
+  # Bright colors
+  bright:
+    black: "0x473f31"
+    red: "0xe35a5a"
+    green: "0x9db65d"
+    yellow: "0xe18245"
+    blue: "0x8294b8"
+    magenta: "0xd261a5"
+    cyan: "0xb2ad45"
+    white: "0x87765d"
+```
