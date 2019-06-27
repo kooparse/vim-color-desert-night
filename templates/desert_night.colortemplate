@@ -153,7 +153,80 @@ ToolbarButton        golden            black             bold
 # }}}
 
 # Additional highlight groups {{{
+# Filetypes
+# css{{{
+cssProp              orange            none
+#}}}
+# js{{{
+jsFuncBraces      -> Delimiter
+jsFuncParens      -> Delimiter
+jsObjectBraces    -> Delimiter
+jsParens          -> Delimiter
+jsIfElseBraces    -> Delimiter
+#}}}
+# ts{{{
+typescriptEndColons  lemon             none
+typescriptExceptions -> Exception
+typescriptBraces  -> Delimiter
+typescriptParens  -> Delimiter
+typescriptEndColons -> Delimiter
+#}}}
+# py{{{
+pythonStatement      orange            none
+#}}}
+# go{{{
+goPackage            red               none
+goImport             orange            none
+#}}}
+# rust{{{
+rustExternCrate      red               none
+rustSigil            orange            none
+rustModPath          lemon             none
+rustCommentLineDoc -> Comment
+#}}}
+# php{{{
+phpVarSelector       lemon             none
+phpParent         -> Delimiter
+#}}}
+# ruby{{{
+rubyMethodName       orange            none
+#}}}
+# dart{{{
+dartClassDecl        orange            none
+dartStorageClass     orange            none
+#}}}
+# perl{{{
+perlStatementPackage red               none
+perlStatementInclude orange            none
+perlStatementStorage red               none
+perlMethod           orange            none
+#}}}
+# haskell{{{
+haskellDecl          red               none
+haskellOperators     lemon             none
+#}}}
+# sh{{{
+shFunction           orange            none
+shDerefSimple        green             none
+shQuote              lemon             none
+shDerefVar           orange            none
+#}}}
+# json{{{
+jsonQuote            lemon             none
+jsonKeyword          orange            none
+#}}}
+# yaml{{{
+yamlKey              orange            none
+#}}}
+# toml{{{
+tomlKey              orange            none
+#}}}
+
 # Plugins
+# startify{{{
+StartifySection      orange            none
+StartifyNumber       green             none
+#}}}
 # ale{{{
 ALEWarningSign       orange            grey
 ALEErrorSign         red               grey
