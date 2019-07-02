@@ -39,7 +39,7 @@ Color: black         #24221c           235               Black
 Color: grey          #473f31           233               Grey
 Color: lightgrey     #87765d           240               LightGrey
 Color: golden        #d4b07b           250               White
-Color: red           #e35a5a           203               Red
+Color: red           #e56060           203               Red
 Color: orange        #e18245           208               DarkYellow
 Color: lemon         #b2ad45           192               Yellow
 Color: green         #9db65d           120               Green
@@ -116,15 +116,15 @@ WildMenu             golden            grey
 
 PreCondit            magenta           none
 Todo                 blue              none
-Label                blue              none
-Conditional          blue              none
 Title                red               none
 PreProc              red               none
+Conditional          red               none
 Exception            red               none
 Error                red               none              bold
 Typedef              red               none
 StorageClass         red               none
 SpecialKey           red               none
+Label                orange            none
 Operator             orange            none
 Special              orange            none
 Type                 orange            none
