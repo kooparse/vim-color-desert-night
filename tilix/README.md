@@ -1,7 +1,7 @@
 # Installation
 
 1. Clone this repository
-2. Copy `path/to/vim-color-desert-night/tilix/DesertNight.json` to `~/.config/tilix/schemes/ForestNight.json`
+2. Copy `path/to/vim-color-desert-night/tilix/DesertNight.json` to `~/.config/tilix/schemes/DesertNight.json`
 
 # Activation
 
