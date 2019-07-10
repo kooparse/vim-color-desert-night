@@ -198,6 +198,9 @@ htmlLink             none              none              underline
 htmlBold             none              none              bold
 htmlItalic           none              none              italic
 #}}}
+# xml{{{
+xmlEndTag            lemon             none
+#}}}
 # }}}
 
 # B/W variant {{{
