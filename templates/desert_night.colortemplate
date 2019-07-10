@@ -207,6 +207,7 @@ cssFunctionName      yellow            none
 cssAttr              lemon             none
 cssColor             lemon             none
 cssImportant         red               none
+cssTagName           yellow            none
 cssBraces         -> Delimiter
 cssSelectorOp     -> Delimiter
 cssSelectorOp2    -> Delimiter
@@ -218,6 +219,10 @@ scssInterpolationDelimiter lemon       none
 scssFunctionName     yellow            none
 scssDefault          red               none
 scssMixinName        red               none
+#}}}
+# less{{{
+lessClass            yellow            none
+lessMixinChar        orange            none
 #}}}
 # }}}
 
