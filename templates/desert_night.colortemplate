@@ -55,7 +55,7 @@ Color: darkblue      #1e2c3e           24                Black
 
 # Terminal colors {{{
 Term colors: grey red lemon orange blue magenta green golden
-Term colors: grey red lemon orange
+Term colors: grey red lemon yellow
 Term colors: blue magenta green golden
 # }}}
 
@@ -86,10 +86,10 @@ DiffDelete           none              darkred
 DiffText             none              darkorange
 Directory            green             none
 EndOfBuffer          grey              none
-ErrorMsg             red               none              bold
-WarningMsg           orange            none              bold
-ModeMsg              orange            none
-MoreMsg              green             none
+ErrorMsg             red               none
+WarningMsg           orange            none
+ModeMsg              black             lightgrey         bold
+MoreMsg              golden            grey
 FoldColumn           lightgrey         grey
 Folded               lightgrey         grey
 IncSearch            none              grey              underline
@@ -106,32 +106,32 @@ SpellBad             red               none              s=red
 SpellCap             orange            none              s=orange
 SpellLocal           blue              none              s=blue
 SpellRare            magenta           none              s=magenta
-StatusLine           black             golden
+WildMenu             black             lightgrey
+StatusLine           golden            grey
 StatusLineNC         golden            black
 TabLine              golden            grey
 TabLineFill          golden            black
-TabLineSel           black             golden
+TabLineSel           black             lightgrey
 VertSplit            grey              black
 Visual               none              grey
 VisualNOS            none              grey              italic
-WildMenu             golden            grey
 
-PreCondit            magenta           none
-Todo                 blue              none
+PreCondit            orange            none
 Title                red               none
 PreProc              red               none
-Conditional          red               none
 Exception            red               none
 Error                red               none              bold
 Typedef              red               none
-StorageClass         red               none
+Conditional          red               none
 SpecialKey           red               none
+Todo                 orange            none
 Label                orange            none
 Operator             orange            none
-Special              orange            none
-Type                 orange            none
 Keyword              orange            none
+StorageClass         yellow            none
+Type                 yellow            none
 Function             green             none
+Special              green             none
 Identifier           green             none
 Statement            green             none
 Tag                  green             none
@@ -140,11 +140,11 @@ String               lemon             none
 Character            lemon             none
 Number               lemon             none
 Float                lemon             none
-Constant             green             none
+Constant             yellow            none
 Boolean              green             none
 SpecialChar          green             none
 Comment              lightgrey         none              italic
-SpecialComment       green             none
+SpecialComment       lightgrey         none              italic
 Ignore               lightgrey         none
 Underlined           none              none              underline
 # See `:help CursorIM`
@@ -155,116 +155,6 @@ ToolbarButton        golden            black             bold
 # }}}
 
 # Additional highlight groups {{{
-# Filetypes
-# css{{{
-cssProp              orange            none
-#}}}
-# js{{{
-jsFuncBraces      -> Delimiter
-jsFuncParens      -> Delimiter
-jsObjectBraces    -> Delimiter
-jsParens          -> Delimiter
-jsIfElseBraces    -> Delimiter
-#}}}
-# ts{{{
-typescriptEndColons  lemon             none
-typescriptExceptions -> Exception
-typescriptBraces  -> Delimiter
-typescriptParens  -> Delimiter
-typescriptEndColons -> Delimiter
-#}}}
-# py{{{
-pythonStatement      orange            none
-#}}}
-# go{{{
-goPackage            red               none
-goImport             orange            none
-#}}}
-# rust{{{
-rustExternCrate      red               none
-rustSigil            orange            none
-rustModPath          lemon             none
-rustCommentLineDoc -> Comment
-#}}}
-# php{{{
-phpVarSelector       lemon             none
-phpParent         -> Delimiter
-#}}}
-# ruby{{{
-rubyMethodName       orange            none
-#}}}
-# dart{{{
-dartClassDecl        orange            none
-dartStorageClass     orange            none
-#}}}
-# perl{{{
-perlStatementPackage red               none
-perlStatementInclude orange            none
-perlStatementStorage red               none
-perlMethod           orange            none
-#}}}
-# haskell{{{
-haskellDecl          red               none
-haskellOperators     lemon             none
-#}}}
-# sh{{{
-shFunction           orange            none
-shDerefSimple        green             none
-shQuote              lemon             none
-shDerefVar           orange            none
-#}}}
-# json{{{
-jsonQuote            lemon             none
-jsonKeyword          orange            none
-#}}}
-# yaml{{{
-yamlKey              orange            none
-#}}}
-# toml{{{
-tomlKey              orange            none
-#}}}
-
-# Plugins
-# startify{{{
-StartifySection      orange            none
-StartifyNumber       green             none
-#}}}
-# ale{{{
-ALEWarningSign       orange            grey
-ALEErrorSign         red               grey
-ALEInfoSign          blue              grey
-ALEError             none              darkred
-ALEWarning           none              darkorange
-ALEVirtualTextError  lightgrey         none
-ALEVirtualTextWarning lightgrey        none
-ALEVirtualTextInfo   lightgrey         none
-ALEVirtualTextStyleError            -> ALEVirtualTextError
-ALEVirtualTextStyleWarning          -> ALEVirtualTextWarning
-#}}}
-# coc{{{
-CocHighlightText     none              none              bold
-CocCodeLens          lightgrey         none
-CocErrorSign      -> ALEErrorSign
-CocWarningSign    -> ALEWarningSign
-CocInfoSign       -> ALEInfoSign
-CocHintSign       -> Label
-CocErrorHighlight -> ALEError
-CocWarningHighlight -> ALEWarning
-CocInfoHighlight  -> ALEInfo
-CocWarningVirtualText -> ALEVirtualTextWarning
-CocErrorVirtualText -> ALEVirtualTextError
-CocInfoVirtualText -> ALEVirtualTextInfo
-CocHintVirtualText -> ALEVirtualTextInfo
-CocCodeLens       -> ALEVirtualTextInfo
-#}}}
-# vim-matchup{{{
-MatchParenCur        none              none              bold
-MatchWord            none              none              underline
-MatchWordCur         none              none              underline
-#}}}
-# sneak{{{
-Sneak                none              darkred
-#}}}
 # }}}
 
 # B/W variant {{{
