@@ -191,6 +191,9 @@ texSection           orange            none
 texBeginEndName      red               none
 #}}}
 # html{{{
+htmlArg              orange            none
+htmlTag              green             none
+htmlEndTag           lemon             none
 htmlLink             none              none              underline
 htmlBold             none              none              bold
 htmlItalic           none              none              italic
