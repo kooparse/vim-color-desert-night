@@ -54,9 +54,9 @@ Color: darkblue      #1e2c3e           24                Black
 # }}}
 
 # Terminal colors {{{
-Term colors: grey red lemon orange blue magenta green golden
-Term colors: grey red lemon yellow
-Term colors: blue magenta green golden
+Term colors: grey red green orange blue magenta lemon golden
+Term colors: grey red green yellow
+Term colors: blue magenta lemon golden
 # }}}
 
 # Default highlight groups {{{
