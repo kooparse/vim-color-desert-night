@@ -124,23 +124,23 @@ Error                red               none              bold
 Typedef              red               none
 Conditional          red               none
 SpecialKey           red               none
-Todo                 orange            none
 Label                orange            none
-Operator             orange            none
+Todo                 orange            none
 Keyword              orange            none
-StorageClass         yellow            none
+StorageClass         orange            none
+Operator             orange            none
 Type                 yellow            none
 Function             green             none
 Special              green             none
 Identifier           green             none
 Statement            green             none
+Delimiter            green             none
 Tag                  green             none
-Delimiter            lemon             none
 String               lemon             none
 Character            lemon             none
 Number               lemon             none
 Float                lemon             none
-Constant             yellow            none
+Constant             green             none
 Boolean              green             none
 SpecialChar          green             none
 Comment              lightgrey         none              italic
@@ -155,6 +155,8 @@ ToolbarButton        golden            black             bold
 # }}}
 
 # Additional highlight groups {{{
+typescriptBraces  -> Delimiter
+typescriptParens  -> Delimiter
 # }}}
 
 # B/W variant {{{
