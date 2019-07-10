@@ -202,10 +202,22 @@ htmlItalic           none              none              italic
 xmlEndTag            lemon             none
 #}}}
 # css{{{
-cssUnitDecorators    yellow            none
+cssUnitDecorators    green             none
+cssFunctionName      yellow            none
+cssAttr              lemon             none
+cssColor             lemon             none
+cssImportant         red               none
 cssBraces         -> Delimiter
 cssSelectorOp     -> Delimiter
 cssSelectorOp2    -> Delimiter
+#}}}
+# sass{{{
+sassClassChar        orange            none
+scssForKeyword       red               none
+scssInterpolationDelimiter lemon       none
+scssFunctionName     yellow            none
+scssDefault          red               none
+scssMixinName        red               none
 #}}}
 # }}}
 
