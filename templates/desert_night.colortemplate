@@ -201,6 +201,12 @@ htmlItalic           none              none              italic
 # xml{{{
 xmlEndTag            lemon             none
 #}}}
+# css{{{
+cssUnitDecorators    yellow            none
+cssBraces         -> Delimiter
+cssSelectorOp     -> Delimiter
+cssSelectorOp2    -> Delimiter
+#}}}
 # }}}
 
 # B/W variant {{{
