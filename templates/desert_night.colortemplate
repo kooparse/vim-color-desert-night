@@ -185,6 +185,11 @@ mkdHeading           orange            none
 rstInlineLiteral     green             none
 rstTableLines        lemon             none
 #}}}
+# tex{{{
+texOnlyMath          orange            none
+texSection           orange            none
+texBeginEndName      red               none
+#}}}
 # html{{{
 htmlLink             none              none              underline
 htmlBold             none              none              bold
