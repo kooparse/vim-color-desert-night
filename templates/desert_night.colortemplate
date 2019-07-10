@@ -181,6 +181,10 @@ mkdRule              red               none
 mkdCode              green             none
 mkdHeading           orange            none
 #}}}
+# rst{{{
+rstInlineLiteral     green             none
+rstTableLines        lemon             none
+#}}}
 # html{{{
 htmlLink             none              none              underline
 htmlBold             none              none              bold
