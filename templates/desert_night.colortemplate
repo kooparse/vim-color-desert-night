@@ -155,8 +155,37 @@ ToolbarButton        golden            black             bold
 # }}}
 
 # Additional highlight groups {{{
-typescriptBraces  -> Delimiter
-typescriptParens  -> Delimiter
+# markdown{{{
+markdownLinkText     orange            none
+markdownUrl          lemon             none              underline
+markdownListMarker   yellow            none
+markdownCode         green             none
+markdownCodeDelimiter lemon            none
+markdownId           yellow            none
+markdownIdDeclaration orange           none
+markdownBoldDelimiter -> Comment
+markdownItalicDelimiter -> Comment
+markdownBold         none              none              bold
+markdownItalic       none              none              italic
+markdownRule         red               none
+markdownHeadingDelimiter orange        none
+mkdListItem          yellow            none
+mkdInlineURL         yellow            none              underline
+mkdLink              orange            none
+mkdURL               lemon             none              underline
+mkdCodeDelimiter     lemon             none
+mkdID                yellow            none
+mkdBold           -> Comment
+mkdItalic         -> Comment
+mkdRule              red               none
+mkdCode              green             none
+mkdHeading           orange            none
+#}}}
+# html{{{
+htmlLink             none              none              underline
+htmlBold             none              none              bold
+htmlItalic           none              none              italic
+#}}}
 # }}}
 
 # B/W variant {{{
