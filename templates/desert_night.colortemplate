@@ -235,6 +235,7 @@ javaScriptOperator   red               none
 jsOperatorKeyword    red               none
 jsGlobalNodeObjects  yellow            none
 jsFunction           orange            none
+jsArrowFunction      red               none
 jsParens          -> Delimiter
 jsBraces          -> Delimiter
 jsBrackets        -> Delimiter
@@ -243,6 +244,20 @@ jsFuncParens      -> Delimiter
 jsObjectBraces    -> Delimiter
 jsObjectParens    -> Delimiter
 jsExceptions      -> Exception
+#}}}
+# ts{{{
+typescriptLabel      red               none
+typescriptExceptions -> Exception
+typescriptParens  -> Delimiter
+typescriptBraces  -> Delimiter
+typescriptEndColons -> typescriptBraces
+typescriptGlobalObjects yellow         none
+typescriptLogicSymbols red             none
+typescriptOpSymbols -> Operator
+typescriptOperator   red               none
+typescriptInterpolationDelimiter lemon none
+typescriptRepeat     red               none
+typescriptBranch     orange            none
 #}}}
 # }}}
 
