@@ -129,11 +129,11 @@ Todo                 orange            none
 Keyword              orange            none
 StorageClass         orange            none
 Operator             orange            none
+Statement            orange            none
 Type                 yellow            none
 Function             green             none
 Special              green             none
 Identifier           green             none
-Statement            green             none
 Delimiter            green             none
 Tag                  green             none
 String               lemon             none
@@ -214,6 +214,7 @@ cssSelectorOp2    -> Delimiter
 #}}}
 # sass{{{
 sassClassChar        orange            none
+sassMixinName        red               none
 scssForKeyword       red               none
 scssInterpolationDelimiter lemon       none
 scssFunctionName     yellow            none
@@ -223,6 +224,25 @@ scssMixinName        red               none
 # less{{{
 lessClass            yellow            none
 lessMixinChar        orange            none
+#}}}
+# js{{{
+javaScriptBraces  -> Delimiter
+javaScriptParens  -> Delimiter
+javaScriptFunction   orange            none
+javaScriptGlobal     yellow            none
+javaScriptNull       yellow            none
+javaScriptOperator   red               none
+jsOperatorKeyword    red               none
+jsGlobalNodeObjects  yellow            none
+jsFunction           orange            none
+jsParens          -> Delimiter
+jsBraces          -> Delimiter
+jsBrackets        -> Delimiter
+jsFuncBraces      -> Delimiter
+jsFuncParens      -> Delimiter
+jsObjectBraces    -> Delimiter
+jsObjectParens    -> Delimiter
+jsExceptions      -> Exception
 #}}}
 # }}}
 
