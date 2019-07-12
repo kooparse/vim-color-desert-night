@@ -301,6 +301,11 @@ pythonBuiltinFunc    yellow            none
 pythonDecorator      lemon             none
 pythonNone           yellow            none
 #}}}
+# go{{{
+goPackage            red               none
+goImport             red               none
+goStatement          green             none
+#}}}
 # }}}
 
 # B/W variant {{{
