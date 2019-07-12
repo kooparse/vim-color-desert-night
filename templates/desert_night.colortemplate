@@ -120,7 +120,7 @@ PreCondit            orange            none
 Title                red               none
 PreProc              red               none
 Exception            red               none
-Error                red               none              bold
+Error                red               none
 Typedef              red               none
 Conditional          red               none
 SpecialKey           red               none
@@ -265,6 +265,15 @@ dartInterpolation    green             none
 dartBranch           orange            none
 dartCoreClasses      green             none
 dartConstant         yellow            none
+#}}}
+# coffee{{{
+coffeeParen       -> Delimiter
+coffeeCurly       -> Delimiter
+coffeeBracket     -> Delimiter
+coffeeSpecialVar     green             none
+coffeeSpecialIdent   yellow            none
+coffeeInterp         green             none
+coffeeInterpDelim    lemon             none
 #}}}
 # }}}
 
