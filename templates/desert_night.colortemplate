@@ -295,6 +295,12 @@ ktStructure          orange            none
 ktStatement          green             none
 ktRepeat             red               none
 #}}}
+# python{{{
+pythonRepeat         red               none
+pythonBuiltinFunc    yellow            none
+pythonDecorator      lemon             none
+pythonNone           yellow            none
+#}}}
 # }}}
 
 # B/W variant {{{
