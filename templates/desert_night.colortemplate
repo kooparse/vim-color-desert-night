@@ -355,6 +355,22 @@ fsharpOption         yellow            none
 swiftInterpolatedString green          none
 swiftTypeDeclaration red               none
 #}}}
+# ruby{{{
+rubyModuleName       orange            none
+rubyClass            orange            none
+rubyPseudoVariable   green             none
+rubyDefine           orange            none
+rubyModule           red               none
+rubyConstant         green             none
+rubyMethodName       yellow            none
+rubyControl          red               none
+rubyInterpolation    green             none
+rubyInterpolationDelimiter lemon       none
+rubyBoolean          lemon             none
+rubyCurlyBlockDelimiter green          none
+rubyBlockParameterList yellow          none
+rubySymbol        -> Identifier
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
