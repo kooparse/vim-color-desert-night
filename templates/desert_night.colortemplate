@@ -351,6 +351,10 @@ fsharpCoreClass      red               none
 fsharpAttribute      orange            none
 fsharpOption         yellow            none
 #}}}
+# swift{{{
+swiftInterpolatedString green          none
+swiftTypeDeclaration red               none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
