@@ -306,6 +306,18 @@ goPackage            red               none
 goImport             red               none
 goStatement          green             none
 #}}}
+# rust{{{
+rustKeyword          orange            none
+rustExternCrate      red               none
+rustModPath          green             none
+rustModPathSep       lemon             none
+rustSelf             yellow            none
+rustLifetime         yellow            none
+rustAssert           red               none
+#}}}
+# toml{{{
+tomlTable            orange            none
+#}}}
 # }}}
 
 # B/W variant {{{
