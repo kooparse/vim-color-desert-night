@@ -134,13 +134,13 @@ Type                 yellow            none
 Function             green             none
 Special              green             none
 Identifier           green             none
+Constant             green             none
 Delimiter            green             none
 Tag                  green             none
 String               lemon             none
 Character            lemon             none
 Number               lemon             none
 Float                lemon             none
-Constant             green             none
 Boolean              green             none
 SpecialChar          green             none
 Comment              lightgrey         none              italic
@@ -258,6 +258,13 @@ typescriptOperator   red               none
 typescriptInterpolationDelimiter lemon none
 typescriptRepeat     red               none
 typescriptBranch     orange            none
+#}}}
+# dart{{{
+dartTypedef          red               none
+dartInterpolation    green             none
+dartBranch           orange            none
+dartCoreClasses      green             none
+dartConstant         yellow            none
 #}}}
 # }}}
 
