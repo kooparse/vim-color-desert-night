@@ -331,6 +331,18 @@ phpNullValue         lemon             none
 phpClassImplements   green             none
 phpParent         -> Delimiter
 #}}}
+# csharp{{{
+csUnspecifiedStatement orange          none
+csModifier           red               none
+csUnsupportedStatement green           none
+csLogicSymbols       red               none
+csContextualStatement green            none
+csNewType            green             none
+csConstant           yellow            none
+csAsync              orange            none
+csBraces          -> Delimiter
+csParens          -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
