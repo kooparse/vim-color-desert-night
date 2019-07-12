@@ -386,6 +386,15 @@ HaskellDerive        red               none
 haskellWhere         red               none
 haskellLet           orange            none
 #}}}
+# lua{{{
+luaBraces         -> Delimiter
+luaLocal             orange            none
+luaFuncCall          green             none
+luaSpecialTable      yellow            none
+luaFuncKeyword       orange            none
+luaSpecialValue      yellow            none
+luaRepeat            red               none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
