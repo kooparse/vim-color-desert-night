@@ -2,7 +2,7 @@
 𝐃𝐞𝐬𝐞𝐫𝐭 𝐍𝐢𝐠𝐡𝐭
 </h1>
 
-![](https://user-images.githubusercontent.com/37491630/60248245-be3fdb00-98b1-11e9-8619-680d8fa086be.png)
+![](https://user-images.githubusercontent.com/37491630/61114515-fcc3c100-a47f-11e9-9023-ba66d3efee9a.png)
 
 ## Installation
 
