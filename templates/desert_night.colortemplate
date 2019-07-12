@@ -281,6 +281,14 @@ purescriptModuleParams green           none
 purescriptOperatorTypeSig red          none
 purescriptOperatorFunction green       none
 #}}}
+# java{{{
+javaScopeDecl        red               none
+javaParen         -> Delimiter
+javaVarArg           green             none
+javaStatement        green             none
+javaTypedef          orange            none
+javaAnnotation       green             none
+#}}}
 # }}}
 
 # B/W variant {{{
