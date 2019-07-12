@@ -200,6 +200,7 @@ htmlItalic           none              none              italic
 #}}}
 # xml{{{
 xmlEndTag            lemon             none
+xmlAttrib            orange            none
 #}}}
 # css{{{
 cssUnitDecorators    green             none
@@ -274,6 +275,11 @@ coffeeSpecialVar     green             none
 coffeeSpecialIdent   yellow            none
 coffeeInterp         green             none
 coffeeInterpDelim    lemon             none
+#}}}
+# purescript{{{
+purescriptModuleParams green           none
+purescriptOperatorTypeSig red          none
+purescriptOperatorFunction green       none
 #}}}
 # }}}
 
