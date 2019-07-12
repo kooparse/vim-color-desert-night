@@ -315,6 +315,22 @@ rustSelf             yellow            none
 rustLifetime         yellow            none
 rustAssert           red               none
 #}}}
+# php{{{
+phpVarSelector       lemon             none
+phpMethod            yellow            none
+phpMethodsVar        yellow            none
+phpMemberSelector    orange            none
+phpUseClass          green             none
+phpUseAlias          yellow            none
+phpFunction          yellow            none
+phpFunctions         yellow            none
+phpClass             yellow            none
+phpClassExtends      green             none
+phpType              red               none
+phpNullValue         lemon             none
+phpClassImplements   green             none
+phpParent         -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
