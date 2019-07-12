@@ -343,6 +343,14 @@ csAsync              orange            none
 csBraces          -> Delimiter
 csParens          -> Delimiter
 #}}}
+# fsharp{{{
+fsharpModifier       red               none
+fsharpKeyChar        lemon             none
+fsharpLinq           red               none
+fsharpCoreClass      red               none
+fsharpAttribute      orange            none
+fsharpOption         yellow            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
