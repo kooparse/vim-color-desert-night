@@ -379,6 +379,13 @@ perlStatementList    yellow            none
 perlFunction         red               none
 perlSubName          orange            none
 #}}}
+# haskell{{{
+haskellDeclKeyword   orange            none
+haskellDecl          orange            none
+HaskellDerive        red               none
+haskellWhere         red               none
+haskellLet           orange            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
