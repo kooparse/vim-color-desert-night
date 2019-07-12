@@ -371,6 +371,14 @@ rubyCurlyBlockDelimiter green          none
 rubyBlockParameterList yellow          none
 rubySymbol        -> Identifier
 #}}}
+# perl{{{
+perlStatementPackage red               none
+perlStringStartEnd -> Delimiter
+perlMethod           yellow            none
+perlStatementList    yellow            none
+perlFunction         red               none
+perlSubName          orange            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
