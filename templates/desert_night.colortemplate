@@ -289,6 +289,12 @@ javaStatement        green             none
 javaTypedef          orange            none
 javaAnnotation       green             none
 #}}}
+# kotlin{{{
+ktModifier           red               none
+ktStructure          orange            none
+ktStatement          green             none
+ktRepeat             red               none
+#}}}
 # }}}
 
 # B/W variant {{{
