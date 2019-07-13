@@ -495,6 +495,15 @@ vimAutoCmd           red               none
 # toml{{{
 tomlTable            orange            none
 #}}}
+# diff{{{
+diffAdded            green             none
+diffRemoved          red               none
+diffChanged          orange            none
+diffOldFile          lemon             none
+diffNewFile          yellow            none
+diffFile             green             none
+diffLine          -> Comment
+#}}}
 # }}}
 
 # B/W variant {{{
