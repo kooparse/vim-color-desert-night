@@ -430,6 +430,13 @@ ocamlFuncWith        green             none
 ocamlConstructor     red               none
 ocamlModPath         green             none
 #}}}
+# fortran{{{
+fortranStructure     green             none
+fortranUnitHeader    red               none
+fortranCall          orange            none
+fortranReadWrite     green             none
+fortranIO            yellow            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
