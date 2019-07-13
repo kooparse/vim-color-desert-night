@@ -481,6 +481,17 @@ zshSubstDelim     -> Delimiter
 # fish{{{
 fishKeyword          red               none
 #}}}
+# vim{{{
+vimMap               red               none
+vimFuncName          yellow            none
+vimFunction          yellow            none
+vimOperParen         green             none
+vimOption            yellow            none
+vimLet               red               none
+vimOption            yellow            none
+vimSetEqual          green             none
+vimAutoCmd           red               none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
