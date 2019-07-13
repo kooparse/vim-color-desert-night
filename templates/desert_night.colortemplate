@@ -468,6 +468,16 @@ shQuote           -> Delimiter
 shCmdSubRegion    -> Delimiter
 shRange           -> Delimiter
 #}}}
+# zsh{{{
+zshSubst             yellow            none
+zshDeref             green             none
+zshOptStart          red               none
+zshOption            orange            none
+zshVariableDef       green             none
+zshFunction          red               none
+zshShortDeref        green             none
+zshSubstDelim     -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
