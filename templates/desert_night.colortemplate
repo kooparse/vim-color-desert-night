@@ -504,6 +504,14 @@ diffNewFile          yellow            none
 diffFile             green             none
 diffLine          -> Comment
 #}}}
+# help{{{
+helpHyperTextEntry   red               none
+helpSectionDelim  -> Comment
+helpNote             blue              none
+helpURL              lemon             none              underline
+helpCommand          orange            none
+helpExample          lemon             none
+#}}}
 # }}}
 
 # B/W variant {{{
