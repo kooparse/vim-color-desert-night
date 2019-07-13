@@ -417,6 +417,19 @@ elixirPrivateDefine  orange            none
 elixirAtom           green             none
 elixirKeyword        orange            none
 #}}}
+# ocaml{{{
+ocamlSigEncl         yellow            none
+ocamlKeyChar         lemon             none
+ocamlArrow           lemon             none
+ocamlModule          green             none
+ocamlModParam        green             none
+ocamlModParam1       yellow            none
+ocamlStructEncl      orange            none
+ocamlFullMod         yellow            none
+ocamlFuncWith        green             none
+ocamlConstructor     red               none
+ocamlModPath         green             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
