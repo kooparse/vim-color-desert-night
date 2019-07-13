@@ -396,6 +396,15 @@ moonInterpDelim      lemon             none
 moonInterp           green             none
 moonSpecialOp        lemon             none
 #}}}
+# d{{{
+dScopeDecl           red               none
+dImport              green             none
+paramlist            green             none
+dEnum                red               none
+dConstant            yellow            none
+dTypedef             orange            none
+dBranch              orange            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
