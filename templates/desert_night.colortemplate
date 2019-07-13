@@ -442,6 +442,15 @@ clojureDefine        orange            none
 clojureSpecial       yellow            none
 clojureDispatch      lemon             none
 #}}}
+# erlang{{{
+erlangAtom           green             none
+erlangLocalFuncRef   yellow            none
+erlangType           red               none
+erlangLocalFuncCall  green             none
+erlangGlobalFuncCall yellow            none
+erlangMap            lemon             none
+erlangVariable       golden            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
