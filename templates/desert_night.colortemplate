@@ -437,6 +437,11 @@ fortranCall          orange            none
 fortranReadWrite     green             none
 fortranIO            yellow            none
 #}}}
+# clojure{{{
+clojureDefine        orange            none
+clojureSpecial       yellow            none
+clojureDispatch      lemon             none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
