@@ -405,6 +405,11 @@ dConstant            yellow            none
 dTypedef             orange            none
 dBranch              orange            none
 #}}}
+# scala{{{
+scalaKeywordModifier red               none
+scalaSpecial         orange            none
+scalaSquareBracketsBrackets -> Delimiter
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
