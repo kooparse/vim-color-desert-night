@@ -26,7 +26,6 @@ Define            -> PreProc
 Debug             -> Special
 Include           -> PreProc
 Macro             -> PreProc
-Repeat            -> Statement
 # See `:help lCursor`
 lCursor           -> Cursor
 # }}}
@@ -123,6 +122,7 @@ Exception            red               none
 Error                red               none
 Typedef              red               none
 Conditional          red               none
+Repeat               red               none
 SpecialKey           red               none
 Label                orange            none
 Todo                 orange            none
@@ -257,7 +257,6 @@ typescriptLogicSymbols red             none
 typescriptOpSymbols -> Operator
 typescriptOperator   red               none
 typescriptInterpolationDelimiter lemon none
-typescriptRepeat     red               none
 typescriptBranch     orange            none
 #}}}
 # dart{{{
@@ -293,10 +292,8 @@ javaAnnotation       green             none
 ktModifier           red               none
 ktStructure          orange            none
 ktStatement          green             none
-ktRepeat             red               none
 #}}}
 # python{{{
-pythonRepeat         red               none
 pythonBuiltinFunc    yellow            none
 pythonDecorator      lemon             none
 pythonNone           yellow            none
@@ -393,7 +390,11 @@ luaFuncCall          green             none
 luaSpecialTable      yellow            none
 luaFuncKeyword       orange            none
 luaSpecialValue      yellow            none
-luaRepeat            red               none
+#}}}
+# moonscript{{{
+moonInterpDelim      lemon             none
+moonInterp           green             none
+moonSpecialOp        lemon             none
 #}}}
 # toml{{{
 tomlTable            orange            none
