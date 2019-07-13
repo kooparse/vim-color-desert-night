@@ -454,6 +454,13 @@ erlangVariable       golden            none
 # toml{{{
 tomlTable            orange            none
 #}}}
+# lisp{{{
+lispFunc             orange            none
+lispKey              yellow            none
+lispDecl             red               none
+lispVar              green             none
+lispEscapeSpecial    green             none
+#}}}
 # }}}
 
 # B/W variant {{{
