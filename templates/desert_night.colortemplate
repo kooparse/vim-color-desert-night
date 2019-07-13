@@ -451,15 +451,25 @@ erlangGlobalFuncCall yellow            none
 erlangMap            lemon             none
 erlangVariable       golden            none
 #}}}
-# toml{{{
-tomlTable            orange            none
-#}}}
 # lisp{{{
 lispFunc             orange            none
 lispKey              yellow            none
 lispDecl             red               none
 lispVar              green             none
 lispEscapeSpecial    green             none
+#}}}
+# sh{{{
+shFunction           red               none
+shDerefSimple        green             none
+shTestOpr            orange            none
+shFunctionOne        yellow            none
+shCommandSub         orange            none
+shQuote           -> Delimiter
+shCmdSubRegion    -> Delimiter
+shRange           -> Delimiter
+#}}}
+# toml{{{
+tomlTable            orange            none
 #}}}
 # }}}
 
