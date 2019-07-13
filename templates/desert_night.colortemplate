@@ -410,6 +410,13 @@ scalaKeywordModifier red               none
 scalaSpecial         orange            none
 scalaSquareBracketsBrackets -> Delimiter
 #}}}
+# elixir{{{
+elixirBoolean        lemon             none
+elixirTupleDelimiter -> Delimiter
+elixirPrivateDefine  orange            none
+elixirAtom           green             none
+elixirKeyword        orange            none
+#}}}
 # toml{{{
 tomlTable            orange            none
 #}}}
