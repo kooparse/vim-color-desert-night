@@ -74,7 +74,7 @@ Variant: gui 256 8
 # Group              Foreground        Background        Attributes
 ColorColumn          fg                black
 Conceal              lightgrey         none
-Cursor               golden            black
+Cursor               none              none              reverse
 CursorColumn         none              grey
 CursorLine           none              grey
 CursorLineNr         golden            grey
