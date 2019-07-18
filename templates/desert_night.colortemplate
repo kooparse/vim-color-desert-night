@@ -10,6 +10,7 @@ Website:             https://github.com/sainnhe/vim-color-desert-night/
 Description:         🏜️  Dark, Warm, Eye-friendly Color Scheme
 License:             MIT && Anti-996
 Option Prefix:       dark
+Neovim:              yes
 # }}}
 
 # Documentation {{{

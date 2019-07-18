@@ -1,4 +1,4 @@
-*desert_night.txt*	For Vim version 8.0	Last change: 2019 Jul 13
+*desert_night.txt*	For Vim version 8.0	Last change: 2019 Jul 18
 
 
 		  Desert Night color scheme    by Sainnhepark
