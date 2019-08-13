@@ -65,13 +65,13 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorColumn guifg=NONE guibg=#473f31 guisp=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#473f31 guisp=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#d4b07b guibg=#473f31 guisp=NONE gui=NONE cterm=NONE
-  hi LineNr guifg=#87765d guibg=#473f31 guisp=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#665c54 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#303a1a guisp=NONE gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=#1e2c3e guisp=NONE gui=NONE cterm=NONE
   hi DiffDelete guifg=NONE guibg=#562022 guisp=NONE gui=NONE cterm=NONE
   hi DiffText guifg=NONE guibg=#512c13 guisp=NONE gui=NONE cterm=NONE
   hi Directory guifg=#99b05f guibg=NONE guisp=NONE gui=NONE cterm=NONE
-  hi EndOfBuffer guifg=#473f31 guibg=NONE guisp=NONE gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#24221c guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi ErrorMsg guifg=#e56b55 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi WarningMsg guifg=#e18245 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi ModeMsg guifg=#24221c guibg=#87765d guisp=NONE gui=bold cterm=bold
@@ -87,7 +87,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi PmenuThumb guifg=#24221c guibg=#d4b07b guisp=NONE gui=NONE cterm=NONE
   hi Question guifg=#949fb4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Search guifg=NONE guibg=#473f31 guisp=NONE gui=underline cterm=underline
-  hi SignColumn guifg=NONE guibg=#473f31 guisp=NONE gui=NONE cterm=NONE
+  hi SignColumn guifg=#665c54  guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi SpellBad guifg=#e56b55 guibg=NONE guisp=#e56b55 gui=NONE cterm=NONE
   hi SpellCap guifg=#e18245 guibg=NONE guisp=#e18245 gui=NONE cterm=NONE
   hi SpellLocal guifg=#949fb4 guibg=NONE guisp=#949fb4 gui=NONE cterm=NONE
